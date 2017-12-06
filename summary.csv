@@ -2,8 +2,8 @@ project_name, impetus, schema_tech, documentation_tech, aggregation_model, data 
 data.gov, federal policy, JSON Schema, static, federated, open, federal
 code.gov, federal policy, JSON Schema, static, federated, open, federal
 DATA Act, federal law, XBRL, static, website submission, open after processing, federal
-NIEM, federal, XML Schema, searchable, none, open, federal / unfunded
-CT State / Municipality, policy/law, law, none?, email, some open, state
+NIEM, federal, XML Schema, searchable, N/A, open, federal / unfunded
+CT State / Municipality, policy/law, policy/law, none?, email, some open, state
 Open311, non-profit + cities, Open API, static wiki, api, closed, non-profit
 OpenReferral, non-profit + social services, data package, readthedocs, peer-to-peer, closed, non-profit
 Google Transit Feed Spec, city + for-profit, data dictionary, static page, federated, open prior to aggregation, for-profit
