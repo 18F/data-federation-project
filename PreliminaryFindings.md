@@ -1,27 +1,17 @@
 # Data Federation - Preliminary Findings
 
 ## Overview
-After interviewing many teams and experts who perform data aggregation across complex organizational boundaries,
-it is clear there is a demand for better resources and tooling for these efforts. We recommend
-exploring the space further.
+Federated data efforts- those in which a certain type of data is aggregated from many entities across organizational boundaries-- have a long history and increasingly important role in critical missions across government. Due to government's decentralized nature, government leaders seeking to collect data frequently do so from organizations they do not have direct control over-- for example, OMB collecting data from agencies, federal government from states, states from municipalities, etc.. Special problems arise in these situations, since resources, capabilities, and incentives may vary wildly, yet there has been very little systemic support for these efforts. After speaking with leaders of nine such projects, and three additional experts, it is clear that such support is needed and would be welcomed by all levels of government.
 
-## What is a "data federation"?
-We use the term data federation to refer to data aggregation efforts that cross organizational
-or institutional boundaries, such as when the federal government collects data from states, where states collect from municipalities, OMB collects data from agencies, etc. This type of data collection, in which the aggregator has limited authority over the owners of the data, is very common in government due to it's decentralized structure, and poses special challenges relative
-to the more common corporate authority structure.
+We recommend continuing on to a discovery phase, focusing on making capital investments in reusable tooling and processes that will benefit future federated data efforts.
 
 ## Why this matters
-Federated datasets are a critical part of government operation, yet there has never been a serious, systemic study
-of how to do it better. Government is in the data business, and much of that data gets transferred across
-organizational boundaries and assembling it requires careful coordination of many parties, yet there is very little
-note sharing about what works, what doesn't, who plays what roles, what resources are required, and how resources are best spent.
+Federated data efforts play an increasingly important role in laws, policies, and operations across many levels of government. When law makers on both sides of the aisles passed the DATA Act in 2014, it wasn't just innovative in its mission (to provide unprecedented transparency in government spending), but also in its methods, which required the creation of a machine readable data standard. The effort required coordination across federal agencies which varied wildly in technical capabilities, and was completed on time and well under budget in 2017. The federal open data policy, along with data.gov, provides a mechanism to streamline the cataloging and discovery of both open and closed data sets across the government. And Open311, a standard API for local government, has enabled an ecosystem of apps to develop around reporting problems such as potholes, streamlining the experience for citizens and cities alike.
 
-We believe a thorough systemic study of this problem could yield solutions in the form of a playbook, technical toolkit, and recommendations for what sort of role the Federal government could play in supporting these efforts.
-
+Federated data efforts are increasingly seen as an engine for transparency, economic growth, and accountability, yet collecting that data remains a challenge. Despite the fact that efforts of this sort are increasing in frequency, each new effort is still improvising solutions in terms of processes, tooling, and compliance infrastructure. It's time to take this problem seriously and invest in reusable tools and approaches that will streamline federated data efforts in the years to come.  
 
 ## How we arrived at this conclusion
-We have performed 12 interviews so far with experts in these types of efforts, and will likely do a few more in the next
-couple weeks. We've spoken with:
+We have performed 12 interviews so far with experts in these types of efforts, and will likely do a few more in the next couple weeks. We've spoken with:
 
 ### Projects
 - **Data.gov**: A catalog of metadata for most Federal datasets
@@ -51,15 +41,17 @@ For each project interview, we asked:
 
 Expert interviews varied slightly by person, but we generally discussed what experience they have with similar efforts, what in their view went well, and what didn't go well.
 
+### What potential users are saying
+
+In speaking with these individuals and reviewing open source repositories, a few things became clear. Although there is a lot of variety in these efforts, there is a lot of commonality as well, and everyone we spoke with was very supportive of trying to get more support for efforts like these moving forward. The more that can be done to support the infrastructure of these projects, at both the technical and procedural levels, the more it will enable federated data efforts in the future. Essentially every effort so far is starting from scratch in terms of doing user research, developing a schema, validating data, aggregating the data, getting approvals, building UIs, and developing processes to support the aggregation. The domain is ripe for investment into reusable tools and frameworks of thinking.
+
+One thing we learned is that several resources are undertaking research in this domain - namely, Andrew Nicklin is compiling data standards in datastandards.directory, and the Open Data Institute is undergoing a multi-year research effort into building and maintaining open data standards. Although there is a difference between data standards and federated data efforts (since efforts may be federated without adopting an open standard), there is enough overlap that it is probably most appropriate for TTS to focus on technical infrastructure moving forward, since we are uniquely positioned to support that aspect.
+
+Another common theme is the confusion around ownership around these efforts. Several leaders interviewed see this work as public infrastructure for the 21st century, but it's not always clear who should be owning and maintaining these efforts. Although specific policies and laws can make roles clear in specific instances, overall the policies around data standards are confusing and ambiguous, leaving gaps that need to be filled in an ad-hoc manner.
+
 ## What we found so far
 The impetus for these types of efforts ranges from top-down policies (e.g., data.gov, code.gov, DATA Act), to
-private sector incentives (e.g., Google Transit Feed Specification), and even occasionally passionate
-individuals (e.g., OpenReferral). Regardless of the initial reasons for starting an initiative, it's important
-to realize that ultimately adoption is driven by cost / benefit analysis at the organizational level.
-In the case of mandates, legal or policy requirements are easily ignored or watered down if the cost is
-too high or benefit too low. It's also important to note that even if the organization stands to benefit significantly
-through compliance or cooperation, they may not have the capital (in time, money or expertise) to do so. This is a more salient problem when the organization is smaller and unlikely to already maintain technical staff, for example
-in local government or social services.
+private sector incentives (e.g., Google Transit Feed Specification), and passionate non-profits (e.g., OpenReferral, Open311). Regardless of the initial reasons for starting an initiative, it's important to realize that ultimately adoption is driven by cost / benefit analysis at the organizational level. In the case of mandates, legal or policy requirements are easily ignored or watered down if the cost is too high or benefit too low. It's also important to note that even if the organization stands to benefit significantly through compliance or cooperation, they may not have the capital (in time, money or expertise) to do so. This is a more salient problem when the organization is smaller and unlikely to already maintain technical staff, for example in local government or social services.
 
 In terms of incentives, it's critical that data aggregation efforts either (1) support an new "killer app" that
 supports organizations in their mission, or (2) supports the organization's existing workflow. In many interviews,
@@ -85,6 +77,7 @@ maintaining standards, schemas, and tooling over the long term. For many of thes
 tell how the maintenance burden will be handled, but in other cases the loss of a single passionate person
 or 3rd party could spell doom for the effort.
 
+
 ## Proposal for Next Steps
 
 We believe the discovery work done so far, which has revealed a long history of, and growing demand for federated data efforts, is sufficient to establish a clear appetite for improved tooling for these efforts across many levels of government. There is also appetite for further research and exploration, however that important work is being actively pursued by non-profits and academia. TTS is in a unique position to invest in the technical infrastructure behind these efforts, and we believe that should be the focus of the next phase of feasibility testing. Work TTS has done so far, in particular work by DATA Act for data validation and ingest, and data.gov for JSON validation and harvesting, could form the basis of an ecosystem of tooling that could greatly accelerate future federated data efforts. Although previous work is open source, it is not engineered for public reuse.
@@ -93,10 +86,20 @@ Building reusable tools is difficult because of a catch-22: it is difficult to b
 
 One such upcoming federated data effort is the data standards policy itself. In a blissfully ironic twist, the federal data standards policy (A-119), specifies that agencies should provide data on the standards they maintain, but does not define a data standard or method of ingest for that data. We should work with OMB to define a standard, and work with the relevant stakeholder within GSA to be the first adopters of that standard, while building a set of tools to accept, document, and validate the new technology.
 
+Another goal of the next phase would be to help identify ways to clarify roles & responsibilities for data standards efforts at the federal level, to clarify authorities in this domain.
+
 ## Questions to be answered in the next phase
 
 There are a few key questions the next phase will seek to answer:
 
 1. Is the work done to date in this area possible to make reusable (at the technical level)?
-2. Will a brand new use case have enough overlap with previous efforts to take advantage of not just processes, but actual code? 
-3. Can a new process / tool built with reusable components meet demands for usability, security, and compliance?
+
+Oftentimes, things may seem very similar at the procedural or process level, but have subtle differences which make it difficult to share actual code. It is still an outstanding question on whether it is possible to make code reusable for these efforts moving forward.
+
+2. Can a new process / tool built with reusable components meet demands for usability and compliance?
+
+It's one thing to force a new domain to use a certain set of tools, it's another to use those tools and still be able to meet high standards for usability and compliance.
+
+3. What role does the Federal government play in these efforts?
+
+Although specific laws and policies can make the roles clear in specific cases, does policy exist which delegates authority to any agency to pioneer or support these efforts in a more general way?
