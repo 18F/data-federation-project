@@ -32,6 +32,24 @@ Other Experts we Spoke With
 - Tyler Kleykamp, Chief Data Officer of Connecticut, who runs the [Connecticut Open Data Portal](https://data.ct.gov/) and maintains this [list](https://github.com/OpenDataCT/state-federal-datasets)
 of datasets states must report to the Federal government.
 
+Interviews ranged from 30-45 minutes. For project leaders I asked them (time permitting):
+1. What is this effort, in your own words?
+2. What was the impetus or driving force behind this effort?
+3. In building this effort, what were the biggest challenges, and what went smoothly?
+4. What tools and technologies were used for this effort?
+5. Why did you choose this architecture or process?
+6. What were the political and organizational dynamics of collecting this data?
+7. Who were the relevant stakeholders for this effort, and how were they convened?
+8. Is there anyone else we should speak with to better understand this effort?
+
+When interviewing experts, the interviews took a looser structure but we generally tried to ask them:
+1. What experience do you have that might be relevant to a federated data effort?
+2. What efforts are you aware of that fit into this category?
+3. Do you have any contacts in those efforts we could reach out to?
+4. What do you think are the primary challenges of federated data efforts?
+
+We took notes directly in a public github issue, and submitted it upon completion of the interview, sending it to the participants for review. You can view those raw notes [here](https://github.com/18F/data-federation-report/issues?utf8=%E2%9C%93&q=is%3Aissue+interview)
+
 ## Our Takeaway: The Data Federation Framework
 
 Successful execution of a federated data effort is largely a question of incentives and resources. Developing, and complying with, a new standard for data submission takes considerable time, effort, and expertise, and will only be possible to sustain with a large number of motivated individuals who have both the ability and the capacity to execute on a long term vision. However, it is difficult, and unwise, to immediately allocate vast resources to a new federated data effort- the effort may be easier than anticipated, or harder, or impossible, for a variety of reasons. We have observed that the most successful of these efforts simultaneously and iteratively develop the maturity of the effort along four axes: Community, Specification, Application, and Mandate. If done properly, these four dimensions work in concert to create a virtuous cycle of more participation, enthusiasm, and resources allocated to the project over time.
