@@ -7,30 +7,30 @@ We interviewed twelve leaders of federated data projects, and seven additional e
 
 ## What We Did
 Projects We Interviewed:
-- DATA ACT
-- data.gov.ie
-- data.gov
-- code.gov
-- Voting Information Project
-- Open Civic Identifiers
-- opendataphilly.org
-- OpenReferral
-- Open311
-- NIEM
-- Geospatial
-- CT State / Municipality
+- [DATA ACT](https://en.wikipedia.org/wiki/Digital_Accountability_and_Transparency_Act_of_2014), a 2014 law mandating expanded and standardized reporting of financial data for federal agencies.
+- [data.gov.ie](https://data.gov.ie/data), the open data port for Ireland.
+- [data.gov](https://www.data.gov), the open data portal for the United States.
+- [code.gov](https://code.gov/), a searchable directory of open source code made public by the federal government.
+- [Voting Information Project](https://www.votinginfoproject.org/) helps voters find information about their elections with collaborative, open-source tools.
+- [Open Civic Data](http://opencivicdata.readthedocs.io/en/latest/index.html), an effort to define common schemas and provide tools for gathering information on government organizations, people, legislation, and events.
+- [opendataphilly.org](https://www.opendataphilly.org/), the open data portal for Philadelphia.
+- [OpenReferral](https://openreferral.org/), dedicated to developing open standards and platforms for making it easy to share and find information related to community resources.
+- [Open311](http://www.open311.org/), A collaborative model and open standard for civic issue tracking.
+- [National Information Exchange Model (NIEM)](https://www.niem.gov/), a common vocabulary that enables efficient information exchange across diverse public and private organizations. NIEM can save time and money by providing consistent, reusable data terms and definitions, and repeatable processes.
+- [Federal Geographic Data Committee](https://www.fgdc.gov/)
 
 We also researched the Google Transit Feed Specification.
 
 Other Experts we Spoke With
-- Rachel Bloom, GeoThink
-- Andrew Nicklin
-- James McKinney
-- Data Coalition
-- Open Data Institute
-- Mark Headd
-- Wo Chang
-
+- Rachel Bloom, who researched open data standard adoption for her thesis. Currently at [GeoThink](http://geothink.ca/).
+- [Andrew Nicklin](https://govex.jhu.edu/author/anicklin/), Director of Data Practices at Johns Hopkins Center for Government Excellence
+- [James McKinney](http://www.jamespetermckinney.com/), Senior Data Standard Specialist at Open Contracting Partnership
+- [Data Coalition](https://www.datacoalition.org/), who advocates on behalf of the private sector and the public interest for the publication of government information as standardized, machine-readable data.
+- [Open Data Institute](https://theodi.org/), which connects, equips and inspires people around the world to innovate with data.
+- [Mark Headd](https://www.linkedin.com/in/markheadd), current 18F acquisitions specialist and former Philadelphia CDO.
+- [Wo Chang](https://www.nist.gov/people/wo-l-chang), Co-chair of the NIST Big Data Working Group.
+- Tyler Kleykamp, Chief Data Officer of Connecticut, who runs the [Connecticut Open Data Portal](https://data.ct.gov/) and maintains this [list](https://github.com/OpenDataCT/state-federal-datasets)
+of datasets states must report to the Federal government.
 
 ## Our Takeaway: The Data Federation Framework
 
