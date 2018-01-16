@@ -8,3 +8,6 @@ Open311, non-profit + cities, Open API, static wiki, api, closed, non-profit
 OpenReferral, non-profit + social services, data package, readthedocs, peer-to-peer, closed, non-profit
 Google Transit Feed Spec, city + for-profit, data dictionary, static page, federated, open prior to aggregation, for-profit
 Geospatial, policy, "ISO 19115 (XML), JSON for data.gov", static page on ISO, federated, open, federal + standards body
+data.gov.ie, gov policy / law, dcat, static site and team, web / api upload / federated, open, gov
+Voting Information Project, user needs, CSVs / XML, readthedocs, web submission, open, Non-profit
+Open Civic Identifiers, analyst needs, CSVs, readthedocs, pull requests, open, contributors
