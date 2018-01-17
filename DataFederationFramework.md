@@ -1,9 +1,9 @@
-# The Data Federation Framework (alpha)
+# The U.S. Data Federation Framework (alpha)
 
 ## Summary
 We define a data federation as an effort where a certain type of specifiable data is collected across complex many organizational boundaries. This could be, for example, when the federal government collects data from states, or states from municipalities, or even when the Office of Management and Budget collects data systematically from many federal agencies. This type of data sharing effort is common in our distributed style of government, but we believe it has not been given the systemic investigation and infrastructural support it deserves- currently each such effort is treated as an isolated instance, with little sharing of tools or lessons from one effort to the next. The goal of the U.S. Data Federation project is to fill that gap, providing a common language and framework for understanding these efforts, and (in the future) a toolkit for accelerating the implementation of these efforts.
 
-We interviewed twelve leaders of federated data projects, and seven additional experts from government, academia, and the private sector who have been influential in shaping or understanding these efforts. We developed a framework for understanding the spectrum of these efforts in along four axes: Community, Specification, Application, and Mandate. We found that the most successful efforts are those in which all four of these axes are developed iteratively and simultaneously.
+We interviewed twelve leaders of federated data projects, and seven additional experts from government, academia, and the private sector who have been influential in shaping or understanding these efforts. We developed a maturity model for these efforts in along four axes: Community, Specification, Application, and Mandate. We found that the most successful efforts are those in which all four of these axes are developed iteratively and simultaneously. We also developed a playbook of common ways to ensure these efforts are successful.
 
 ## What We Did
 Projects We Interviewed:
@@ -50,7 +50,9 @@ When interviewing experts, the interviews took a looser structure but we general
 
 We took notes directly in a public github issue, and submitted it upon completion of the interview, sending it to the participants for review. You can view those raw notes [here](https://github.com/18F/data-federation-report/issues?utf8=%E2%9C%93&q=is%3Aissue+interview)
 
-## Our Takeaway: The Data Federation Framework
+We have also compiled a [summary of all projects interviewed](summary.csv).
+
+## The Data Federation Maturity Model
 
 Successful execution of a federated data effort is largely a question of incentives and resources. Developing, and complying with, a new standard for data submission takes considerable time, effort, and expertise, and will only be possible to sustain with a large number of motivated individuals who have both the ability and the capacity to execute on a long term vision. However, it is difficult, and unwise, to immediately allocate vast resources to a new federated data effort- the effort may be easier than anticipated, or harder, or impossible, for a variety of reasons. We have observed that the most successful of these efforts simultaneously and iteratively develop the maturity of the effort along four axes: Community, Specification, Application, and Mandate. If done properly, these four dimensions work in concert to create a virtuous cycle of more participation, enthusiasm, and resources allocated to the project over time.
 
@@ -75,7 +77,6 @@ It is also important to be in touch with the community of data consumers from th
 
 ## The Playbook
 
-
 **Develop a Killer App**: If your hypothesis is that your data is useful, do the work to build out the first use case and demonstrate that value. This will help win over the hearts and minds of participants. If you can't think of a single use case for your data, it might make sense to do more outreach with relevant communities to refine the value proposition before undertaking a larger effort. For example, the Google Transit Feed Specification has become widely and enthusiastically adopted since it allows city's transit data to be displayed in Google Maps.
 
 **Policy Should Be Focused on Processes and Outcomes, Not Implementation**: The details of implementing an open data standard must be able to be adapted by project teams on the fly to meet the needs of the owner and user communities. Don't specify technical details in policy or law, instead focus on goals and processes used to achieve those goals (e.g., developed iteratively with user feedback, or must develop a machine-readable data standard).
@@ -88,14 +89,15 @@ It is also important to be in touch with the community of data consumers from th
 
 **Allocate Proper Resources**: Throwing money at data owners without any structure will likely not get great results, but adding financial support for training, obtaining new software, and high-touch onboarding is very helpful. For example, data.gov.ie has a "data team" of 3-4 people whose sole purpose is to provide high-touch assistance to departments who want to comply but need help navigating technical or procedural issues. And when the state of Connecticut wanted to normalize the financial data of its municipalities, it provided grants for obtaining new software and assisted with training, which built up goodwill and was of significant practical importance.
 
-**Start Simple**: Just because a project might have tremendous value, or be complex organizationally, doesn't mean it needs to be complex at the technical level. For the DATA Act, for example, they found CSVs were the easiest format for owners to comply with, and also very easy to ingest and validate. The system behind the DATA Act, which was built on time for 1/10 of the CBO estimate, is architecturally just a simple web application.
+**Start With Simple Technologies**: Just because a project might have tremendous value, or be complex organizationally, doesn't mean it needs to be complex at the technical level. For the DATA Act, for example, they found CSVs were the easiest format for owners to comply with, and also very easy to ingest and validate. The system behind the DATA Act, which was built on time for 1/10th of the CBO cost estimate, is architecturally just a simple web application.
 
 **Nurture Early Adopters**: Identify 2-3 early adopters, and work side by side with them to comply with a draft of the specification. Their success is critical to adoption-- they will become much more convincing evangelists of your effort than you can be. They're also critical from a practical standpoint to allow for proper feedback and generalization, provide a forum to discuss challenges, and demonstrate technical feasibility.
 
 **Support Compliance a Compliance Ecosystem**: In order to lessen the burden on data owners, it's important to do everything you can to help them compile and validate their data. For example, data.gov provides inventory.data.gov, a metadata inventory tool for agencies that easily exports the data to the required format. It also provides an online tool for validating a data.json file adheres to the specified format. Publicly accessible, human readable documentation is also a critical part of the success of these efforts.
 
 
-## Final Thoughts
+## Next Steps
+Due to its decentralized nature, the U.S. Government often undertakes complex federated data efforts. It's time to collaborate more on what works, what doesn't, and ways to lower capital investment for these efforts in the future by sharing tooling and other resources. We hope to be shortly beginning a new phase of this project focused on identifying and building common tooling and answering critical questions around the long term ownership and maintenance of federated data efforts.
 
 ## Helpful Resources
 - [JSON Schema](http://json-schema.org/)
