@@ -54,7 +54,7 @@ We took notes directly in a public github issue, and submitted it upon completio
 
 Successful execution of a federated data effort is largely a question of incentives and resources. Developing, and complying with, a new standard for data submission takes considerable time, effort, and expertise, and will only be possible to sustain with a large number of motivated individuals who have both the ability and the capacity to execute on a long term vision. However, it is difficult, and unwise, to immediately allocate vast resources to a new federated data effort- the effort may be easier than anticipated, or harder, or impossible, for a variety of reasons. We have observed that the most successful of these efforts simultaneously and iteratively develop the maturity of the effort along four axes: Community, Specification, Application, and Mandate. If done properly, these four dimensions work in concert to create a virtuous cycle of more participation, enthusiasm, and resources allocated to the project over time.
 
-
+| Dimensions       | Beginnings     | Growth           | Mature        |
 |:----------------:|:--------------:|:----------------:|:-------------:|
 | **Impetus**      | Grassroots     | Policy           | Law           |
 | **Community**    | First Adopters | Trending         | Maintenance   |
@@ -73,35 +73,35 @@ It is also important to be in touch with the community of data consumers from th
 
 **Application**: It is only very rare cases where raw data published online will be compelling enough to drive adoption of the user community. Generally that community will have richer requirements beyond and supporting the data itself. For example, they may want to be able to search it or visualize it easily, or access it programmatically through an Application Programming Interface (API). Since that user community is ultimately driving value for the entire effort, it's important to be developing an application in concert with the standard to demonstrate the value of the data. For example, with code.gov, the project team developed an alpha version of code.gov in just a few months, showcasing the work of some of the early adopters. They quickly earned over 100,000 viewers, which helped ignite excitement for the effort across government, and provide countless valuable perspectives on how the data would be used and what, exactly, the value was they should be targeting. Often for federated data efforts, the value proposition itself is not fully known, but rather hypothesized: developing a "killer app" that showcases that value directly is a critical part of the effort. Similarly, the application helps inform the specification itself: perhaps some fields are found to be unnecessary, or incorrectly formatted, or missing. This application provides important fuel for incentivizing adoption. For example, for the Google Transit Feed Specification, having local citizens be able to search through their city's public transit routes on Google Maps provided clear and tremendous value to potential adopters. As is industry best-practice, it's important to develop this application iteratively, starting with a small subset of features, releasing publicly to early adopters in a alpha phase, performing more extensive testing in a beta phase, and adding increased stability in the production phase.
 
-## Discussion
+## The Playbook
 
-### What Works Well
-- Killer App (Google Transit)
-- General Policy (Code.gov), with specifications to make a machine readable standard (but not to specify the standard)
-- Single empowered project team (code.gov)
-- Dogfooding (municipalities, geo)
-- Demonstrated demand (google search results- VIP)
-- Financial Incentives ()
-- Data reporting as part of normal workflow, not "tacked on"
-- Start with simple tech (don't assume big data / complex architecture like microservices). If a CSV will
-work, don't do json or XML. If a static app will do, don't use a database.
-- Early adopters / "shining examples" to drive adoption. Both peer pressure and practical - can point to repos, discuss challenges, etc.
-- tooling to aid in reporting (e.g., inventory.data.gov, validators, human readable documentation)
 
-### What Causes Issues
-- conveying scale (VIP)
-- Resources (OpenReferral)
-- expertise (States / Municipalities)
-- authority (for large orgs)
-- policies / laws that recommend general guidelines, but leave authority up to states / districts for details, miss a huge opportunity. Should dictate machine readable. restaurant inspections / FDA (Andrew Nicklin)
-- Standards or technologies written into law.
+**Develop a Killer App**: If your hypothesis is that your data is useful, do the work to build out the first use case and demonstrate that value. This will help win over the hearts and minds of participants. If you can't think of a single use case for your data, it might make sense to do more outreach with relevant communities to refine the value proposition before undertaking a larger effort. For example, the Google Transit Feed Specification has become widely and enthusiastically adopted since it allows city's transit data to be displayed in Google Maps.
 
-- highlight incentives
+**Policy Should Be Focused on Processes and Outcomes, Not Implementation**: The details of implementing an open data standard must be able to be adapted by project teams on the fly to meet the needs of the owner and user communities. Don't specify technical details in policy or law, instead focus on goals and processes used to achieve those goals (e.g., developed iteratively with user feedback, or must develop a machine-readable data standard).
+
+**Implementation Should be Driven by a Single Empowered Team**: It's important to be able to deliver iterations on the application and specification quickly in order to build trust and momentum. Do not attempt to split responsibilities (e.g., the specification maintained by one department, and the application by another).
+
+**When possible, deliver value directly to data owners**: The teams responsible for complying with the policy bear the vast majority of the burden, yet often receive little benefit. The long term success of these efforts are often contingent on delivering value directly to these data owners. For example, in the state of Connecticut, municipalities readily submit their data to the open data portal, since it is the easiest way to publish and share data from one department to another, which is an operational necessity. And for the Philadelphia Open Data Portal, newly published data gets publicity in the form of a blog post, and gets visualizations layered on top of it. Government employees are very motivated by public service, and will be delighted to comply if they see the public engaging fruitfully with the data.
+
+**Identify Use Cases With Demonstrated Demand**: When prioritizing whether or not to invest in a federated data effort, seek out ways to prove demand. Are citizens or media frequently requesting a certain type of data? Is there already a community built around fixing or cleaning up a certain type of data? Talk with your call centers and local communities. For example, with the Voting Information Project, Google reached out to the public sector because they had data indicating that people were searching for basic polling place and ballot data, but not finding it.
+
+**Allocate Proper Resources**: Throwing money at data owners without any structure will likely not get great results, but adding financial support for training, obtaining new software, and high-touch onboarding is very helpful. For example, data.gov.ie has a "data team" of 3-4 people whose sole purpose is to provide high-touch assistance to departments who want to comply but need help navigating technical or procedural issues. And when the state of Connecticut wanted to normalize the financial data of its municipalities, it provided grants for obtaining new software and assisted with training, which built up goodwill and was of significant practical importance.
+
+**Start Simple**: Just because a project might have tremendous value, or be complex organizationally, doesn't mean it needs to be complex at the technical level. For the DATA Act, for example, they found CSVs were the easiest format for owners to comply with, and also very easy to ingest and validate. The system behind the DATA Act, which was built on time for 1/10 of the CBO estimate, is architecturally just a simple web application.
+
+**Nurture Early Adopters**: Identify 2-3 early adopters, and work side by side with them to comply with a draft of the specification. Their success is critical to adoption-- they will become much more convincing evangelists of your effort than you can be. They're also critical from a practical standpoint to allow for proper feedback and generalization, provide a forum to discuss challenges, and demonstrate technical feasibility.
+
+**Support Compliance a Compliance Ecosystem**: In order to lessen the burden on data owners, it's important to do everything you can to help them compile and validate their data. For example, data.gov provides inventory.data.gov, a metadata inventory tool for agencies that easily exports the data to the required format. It also provides an online tool for validating a data.json file adheres to the specified format. Publicly accessible, human readable documentation is also a critical part of the success of these efforts.
+
+
 ## Final Thoughts
 
 ## Helpful Resources
-- json Schema standard & e-book
-- XML data types
-- CKAN
-- datastandards.directory
+- [JSON Schema](http://json-schema.org/)
+- [Understanding JSON Schema (ebook)](https://spacetelescope.github.io/understanding-json-schema/)
+- [XML data types](https://www.w3.org/TR/xmlschema-2/#built-in-primitive-datatypes)
+- [Table Schema](https://frictionlessdata.io/specs/table-schema/)
+- [CKAN](https://ckan.org/)
+- [datastandards.directory](https://datastandards.directory/)
 - [State-Federal Datasets](https://github.com/OpenDataCT/state-federal-datasets)
