@@ -50,11 +50,11 @@ When interviewing experts, the interviews took a looser structure but we general
 3. Do you have any contacts in those efforts we could reach out to?
 4. What do you think are the primary challenges of federated data efforts?
 
-We took notes directly in a public github issue, and submitted it upon completion of the interview, sending it to the participants for review. You can view those raw notes [here](https://github.com/18F/data-federation-report/issues?utf8=%E2%9C%93&q=is%3Aissue+interview)
+We took notes directly in a public github issue, and submitted it upon completion of the interview, sending it to the participants for review. You can view those raw notes [here](https://github.com/18F/data-federation-report/issues?utf8=%E2%9C%93&q=is%3Aissue+interview).
 
 We have also compiled a [summary of all projects interviewed](summary.csv).
 
-Our analysis consisted of analyzing our interview notes and identifying common themes and patterns, presented in two forms: a Maturity Model and Playbook. The maturity model identifies four principal dimensions with which to gauge a federated effort, and three phases of maturity for each dimension. The playbook consists of a set of actionable plays which have proven helpful to previous efforts.  
+Our analysis consisted of analyzing our interview notes and identifying common themes and patterns, presented in two forms: a [Maturity Model](#the-data-federation-maturity-model) and [Playbook](#the-data-federation-playbook). The maturity model identifies four principal dimensions with which to gauge a federated effort, and three phases of maturity for each dimension. The playbook consists of a set of actionable plays which have proven helpful to previous efforts.  
 
 ## The Data Federation Maturity Model
 
@@ -105,7 +105,7 @@ Often for federated data efforts, the value proposition itself is not fully know
 
 
 
-## The Playbook
+## The Data Federation Playbook
 
 The following nine plays are drawn from our interviews with successful federated data efforts. They are intended to provide highlights of what project teams recall as being essential to the success of their project. It's unlikely that any effort will be able to execute on all plays, but if you are undertaking a new federated data effort, it will greatly improve your chance of success if you have a few of these plays in motion.
 
