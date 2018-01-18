@@ -67,14 +67,14 @@ Successful execution of a federated data effort is largely a question of incenti
 | **Specification**| Dictionary     | Machine Readable | Standardized  |
 | **Application**  | Alpha          | Beta             | Production    |
 
-###Impetus
+### Impetus
 *The business or legal need that sets the project in motion*
 
 The first spark behind any federated data effort is some sort of impetus. This might be a shared understanding of a problem, where a grassroots community comes together and decides to act (for example, with the law enforcement community creating NIEM). Or it could be a policy, where a central authority (e.g., OMB, or a state government) decides to require compliance of a certain sort through an official policy (for example, with the data.gov). Or, it could be as formal as a law, such as in the case of the DATA Act. The more formal the mechanism, the greater force permanence it has, and thus the harder it is to adapt during implementation.
 
 For both policies and laws, it is critical to leave all technical decision making to the implementation team. Never specify a technical standard in policy or law. For example, it can be very helpful to dictate that a standard must be machine readable, but specifying that the standard must be written in XML can have complex and unforeseen consequences. In extreme cases you can specify data elements to provide, but it is best to avoid doing so. In writing a policy or law, focus on processes and outcomes, not on implementation details. Never attempt to fully dictate a data standard in policy or law. For example, you can say that the standard must be machine readable, extensible, and developed alongside a web application with user feedback, but it would not be helpful to say that the standard should be in XML, that states can modify as needed, and that it must be showcased in a user-friendly web application. It's also important to recognize that data standards need maintenance and adaptation over time: it's wise to specify an annual or biannual review of the standard itself to make sure the data is still providing value.
 
-###Community
+### Community
 *The people who provide and consume the data*
 
 For a federated data effort, you have two communities you need to keep happy: the data owners, or those who need to do the work to adopt the standard, and the community of users, or consumers of the aggregated data. It is the job of the project team (a small team dedicated to driving adoption) to keep this community excited and encouraged.
