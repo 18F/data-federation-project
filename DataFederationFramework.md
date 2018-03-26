@@ -6,7 +6,7 @@ This project is a partnership between GSA's 18F and Office of Products and Platf
 The goal of the U.S. Data Federation project is to fill that gap, providing a common language and framework for understanding these efforts, and (in the future) a toolkit for accelerating the implementation of these efforts.
 
 ## What We Did
-We interviewed twelve leaders of federated data projects, and seven additional experts from government, academia, and the private sector who have been influential in shaping or understanding these efforts. We developed a maturity model for these efforts in along four axes: Community, Specification, Application, and Mandate. We found that the most successful efforts are those in which all four of these axes are developed iteratively and simultaneously. We also developed a playbook of common ways to ensure these efforts are successful.
+We interviewed twelve leaders of federated data projects, and seven additional experts from government, academia, and the private sector who have been influential in shaping or understanding these efforts. We developed a maturity model for these efforts in along four axes: Impetus, Community, Specification, and Mandate. We found that the most successful efforts are those in which all four of these axes are developed iteratively and simultaneously. We also developed a playbook of common ways to ensure these efforts are successful.
 
 Projects We Interviewed:
 
