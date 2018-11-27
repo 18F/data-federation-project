@@ -1,4 +1,4 @@
-# data-federation-report
+# data-federation-project
 Findings from the 10x US Data Federation research project: 
 
 ## Phase 1
