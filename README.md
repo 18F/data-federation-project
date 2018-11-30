@@ -15,4 +15,4 @@ Federated data efforts are increasingly seen as an engine for transparency, econ
 - Prototype [Django Data Ingest Tool](https://github.com/18F/django-data-ingest) 
 
 ## Phase 3
-- Underway as of November 2018; updates will be added to this repository.
+- Underway as of November 2018; ongoing [updates can be found here](https://github.com/18F/data-federation-project/tree/master/updates).
