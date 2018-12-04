@@ -18,3 +18,10 @@ It's time to take this problem seriously and invest in reusable tools and approa
 
 ### Phase 3
 - Underway as of November 2018; Work can be tracked [here](../../projects/3), and ongoing updates can be found [here](updates).
+
+### Related repositories
+
+There are several repositories that contain code that is a part of this project.
+* https://github.com/18F/goodtables-gov
+* https://github.com/18F/django-data-ingest
+* https://github.com/18F/usda-fns-ingest
