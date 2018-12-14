@@ -1,0 +1,28 @@
+# Shipping news
+
+The team will post updates to this file on a bi-weekly basis.
+
+## December 14, 2018
+
+Today marks the end of Sprint 1! The team has spent the last two weeks working towards both the overarching goal of developing resources to support federated data efforts in general and the implementation of the data validation tool with USDA’s Food & Nutrition Service.
+
+### COMPLETED
+- Completed review of data-ingest-tool and wrote Demo Notes
+- Held follow up meeting with FNS to get better oriented to school lunch program details
+- Documented the current end-to-end process
+- Conducted follow-up interview with Kansas to learn about their technology solution and demo our data validation tool
+- Participated in conversations to socialize the project with relevant stakeholders
+  - Interagency Open Data Working Group
+  - Hudson Hollister of the Data Coalition
+- Created preliminary promotional materials for outreach
+- Refined issues in GitHub in preparation for Sprint 2
+
+### UP NEXT
+- Connect with and interview sponsors and regional consultants in Kansas (who use the state solution to submit data)
+- Hold introductory meeting with Montana, another state that could act potential test case for the data ingest prototype (scheduled for Thursday, 12/20/18)
+- Circulate promotional materials with relevant stakeholder communities to identify potential additional use cases
+
+### QUESTIONS / BLOCKERS
+- We are debating the benefits of possibly moving the relevant Github repos for this project from the 18F organization to the GSA organization. It would be good to know if there were other 10X projects thinking about this, and where they are in this process.
+
+## November 30, 2018
