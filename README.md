@@ -13,12 +13,14 @@ It's time to take this problem seriously and invest in reusable tools and approa
 - [US Data Federation Framework](https://github.com/18F/data-federation-report/blob/master/DataFederationFramework.md) (includes [Data Federation Maturity Model](https://github.com/18F/data-federation-report/blob/master/DataFederationFramework.md#the-data-federation-maturity-model) and [Data Federation Playbook](https://github.com/18F/data-federation-report/blob/master/DataFederationFramework.md#the-data-federation-playbook))
 
 ### Phase 2
-- [Final presentation](https://docs.google.com/presentation/d/1nPdhy0EnYXKFgm8aMfjwFSKu5kcxkjCai52uRXzOCfo/edit#slide=id.g3d2d046014_7_215)
+- [Final presentation](https://docs.google.com/presentation/d/1nPdhy0EnYXKFgm8aMfjwFSKu5kcxkjCai52uRXzOCfo/edit#slide=id.g3d2d046014_7_215) // [PDF version](assets/US-Data-Federation-Phase-II-Final.pdf)
 - Prototype [Django Data Ingest Tool](https://github.com/18F/django-data-ingest) 
 
 ### Phase 3
 - Underway as of November 2018; Work can be tracked [here](../../projects/3), and ongoing updates can be found [here](updates).
-- [Project overview](https://docs.google.com/document/d/1_-u4cxv1RH92DPF8TFgZrJMnRyNBlBFAFk49C9f_3SI/edit?usp=sharing), [project overview with FNS case study](https://docs.google.com/document/d/1Yj3-jejNWs2jZZodJcctcyRvn_o-oBmktykOGCUDltg/edit#), [project overview presentation](https://docs.google.com/presentation/d/1_4-oSzm9O_czcJlNgdcViEEop4pw8h_j-GevBVNLmb0/edit#slide=id.g463b654acf_0_78)
+- [Project overview](https://docs.google.com/document/d/1_-u4cxv1RH92DPF8TFgZrJMnRyNBlBFAFk49C9f_3SI/edit?usp=sharing) // [PDF version](assets/Project-Overview-for-Partners-Stakeholders.pdf)
+- [project overview with FNS case study](https://docs.google.com/document/d/1Yj3-jejNWs2jZZodJcctcyRvn_o-oBmktykOGCUDltg/edit#) // [PDF version](assets/Project-Overview-with-FNS-Case-Study.pdf)
+- [project overview presentation](https://docs.google.com/presentation/d/1_4-oSzm9O_czcJlNgdcViEEop4pw8h_j-GevBVNLmb0/edit#slide=id.g463b654acf_0_78) // [PDF version](assets/US-Data-Federation-Project-Intro.pdf)
 
 ### Related repositories
 
