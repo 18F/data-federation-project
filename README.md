@@ -28,4 +28,5 @@ There are several repositories that contain code that is a part of this project.
 * https://github.com/18F/goodtables-gov
 * https://github.com/18F/django-data-ingest
 * https://github.com/18F/usda-fns-ingest
+* https://github.com/18F/couch-rules-engine
 * https://github.com/GSA/us-data-federation
