@@ -21,6 +21,7 @@ It's time to take this problem seriously and invest in reusable tools and approa
 - [Project overview](https://docs.google.com/document/d/1_-u4cxv1RH92DPF8TFgZrJMnRyNBlBFAFk49C9f_3SI/edit?usp=sharing) // [PDF version](assets/Project-Overview-for-Partners-Stakeholders.pdf)
 - [Project overview with FNS case study](https://docs.google.com/document/d/1Yj3-jejNWs2jZZodJcctcyRvn_o-oBmktykOGCUDltg/edit#) // [PDF version](assets/Project-Overview-with-FNS-Case-Study.pdf)
 - [Project overview presentation](https://docs.google.com/presentation/d/1_4-oSzm9O_czcJlNgdcViEEop4pw8h_j-GevBVNLmb0/edit#slide=id.g463b654acf_0_78) // [PDF version](assets/US-Data-Federation-Project-Intro.pdf)
+– [Recorded presentation for Digital.gov on April 17,2019](https://youtu.be/r4XUu2MLrDo) // [Slides](https://github.com/18F/data-federation-project/blob/master/assets/Digital.gov%20Presentation%20%E2%80%94%20US%20Data%20Federation.pdf)
 
 ### Related repositories
 
