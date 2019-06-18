@@ -14,7 +14,7 @@ It's time to take this problem seriously and invest in reusable tools and approa
 
 ### Phase 2
 - [Final presentation](https://docs.google.com/presentation/d/1nPdhy0EnYXKFgm8aMfjwFSKu5kcxkjCai52uRXzOCfo/edit#slide=id.g3d2d046014_7_215) // [PDF version](assets/US-Data-Federation-Phase-II-Final.pdf)
-- Prototype [Django Data Ingest Tool](https://github.com/18F/django-data-ingest) 
+- Prototype [Django Data Ingest Tool](https://github.com/18F/ReVAL) 
 
 ### Phase 3
 - Underway as of November 2018; Work can be tracked [here](../../projects/3), and ongoing updates can be found [here](updates).
@@ -27,7 +27,9 @@ It's time to take this problem seriously and invest in reusable tools and approa
 
 There are several repositories that contain code that is a part of this project.
 * https://github.com/18F/goodtables-gov
-* https://github.com/18F/django-data-ingest
+* https://github.com/18F/ReVAL
 * https://github.com/18F/usda-fns-ingest
 * https://github.com/18F/couch-rules-engine
 * https://github.com/GSA/us-data-federation
+* https://github.com/18F/usdot-jpo-ode-workzone-data-exchange
+* https://github.com/18F/cx-cap-goal
