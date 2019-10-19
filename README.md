@@ -44,11 +44,9 @@ Team: Phil Ashlock, Mike Gintz, Mark Headd, Ethan Heppner, Julia Lindpaintner, A
 
 -   Validated demand for ReVAL and identified future partners 
 
--   Conducted outreach to 
+-   Continued to identify common needs and useful reusable resources for data efforts through outreach and presentations to the Data Exchange Community of Practice, Interagency Working Group on Open Data, VA Open Data Working Group, and others
 
--   Continue to identify common needs and useful reusable resources for data efforts 
-
--   Begin building a community around a shared need for knowledge-sharing across data efforts in government
+-   Began building a community around a shared need for knowledge-sharing across data efforts in government
 
 -   Protect against redundancy by aligning the efforts of the U.S. Data Federation with other efforts across government, such as the work of the Federal Data Strategy and the mandates of the Evidence Act and Open Government Data Act 
 
