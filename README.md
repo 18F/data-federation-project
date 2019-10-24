@@ -96,7 +96,9 @@ There are several repositories that contain code that is a part of this project.
 
 * Github repo for ReVAL, the US Data Federation's first reusable tool for data validation and aggregation: https://github.com/18F/ReVAL
 
-* Github repo for the FNS Data Validation Service (based on ReVAL): https://github.com/18F/usda-fns-ingest
+* Github repo for the FNS Data Validation Service, which uses ReVAL to check submitted FNS-742 data against a set of centralized validation rules via API: https://github.com/18F/usda-fns-ingest
+
+* Github repo for the Workzone Data Exchange (WZDx) Validator, which uses ReVAL to perform JSON Schema validation against the WZDx v1.1 specification: https://github.com/18F/usdot-jpo-ode-workzone-data-exchange
 
 *Other repos referenced:*
 
