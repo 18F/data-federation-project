@@ -77,10 +77,10 @@ After conducting research with the stakeholders and audience for resources.data.
 - [Federal Data Strategy Proof Point](https://strategy.data.gov/proof-points/2019/05/17/supercharging-data-through-validation-as-a-service/) on the USDA FNS Data Validation Service
 - [Phase 4 pitch presentation (PDF)](https://github.com/18F/data-federation-project/blob/master/assets/10x%20Data%20Federation%20Phase%204%20pitch.pdf)
 
-**Phase 4**
+**Phase 4**  
 *Forthcoming*
 
-**Biweekly updates**
+**Biweekly updates**  
 Starting in Phase 3, the team began publishing updates on its activities and progress roughly bi-weekly. All past updates can be found [here](https://github.com/18F/data-federation-project/tree/master/updates).
 
 ### Related repositories
