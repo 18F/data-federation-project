@@ -41,7 +41,7 @@ Team: Phil Ashlock, Mike Gintz, Mark Headd, Ethan Heppner, Julia Lindpaintner, A
 
 **Phase 4** (October 2019-ongoing)
 
-Team: Phil Ashlock, Mike Gintz, Julia Lindpaintner
+Team: Phil Ashlock, Mike Gintz, Julia Lindpaintner, Amy Mok, Princess Ojiaku, James Tranowich
 -   Collaborated with resources.data.gov stakeholders (GSA, OMB, OGIS) to identify likely audience and begin to define a long-term vision of success for the resource repository
 -   Conducted interviews with over 30 people across 14 agencies, including 5 Chief Data Officers, data scientists, organizers of internal open data working groups, Federal Data Strategy detailees, and many others involved in their agency’s data governance or data management efforts 
 -   Outlined a long-term vision for the U.S. Data Federation as the content strategy team underpinning resources.data.gov and plans to prototype this approach during Phase 4
