@@ -31,13 +31,13 @@ Team: Phil Ashlock, Catherine Devlin, Anthony Garvan, Chris Goranson, Joe Krzyst
 **Phase 3** (December 2018-June 2019)
 
 Team: Phil Ashlock, Mike Gintz, Mark Headd, Ethan Heppner, Julia Lindpaintner, Amy Mok
--   Developed Phase 2 prototype into Reusable Validation and Aggregation Library ([ReVAL](https://github.com/18F/ReVAL)) with a focus on API-based usage
--   Worked with FNS to develop ReVAL's first custom manifestation for FNS-742 as the [FNS Data Validation Service](https://github.com/18F/usda-fns-ingest)
--   Validated demand for ReVAL and identified future partners 
+-   Developed Phase 2 prototype into Reusable Validation Library ([ReVal](https://github.com/18F/ReVAL)) with a focus on API-based usage
+-   Worked with FNS to develop ReVal's first custom manifestation for FNS-742 as the [FNS Data Validation Service](https://github.com/18F/usda-fns-ingest)
+-   Validated demand for ReVal and identified future partners 
 -   Continued to identify common needs and useful reusable resources for data efforts through outreach and presentations to the Data Exchange Community of Practice, Interagency Working Group on Open Data, VA Open Data Working Group, and others
 -   Began building a community around a shared need for knowledge-sharing across data efforts in government
 -   Protect against redundancy by aligning the efforts of the U.S. Data Federation with other efforts across government, such as the work of the Federal Data Strategy and the mandates of the Evidence Act and Open Government Data Act 
--   Pitched for Phase 4 funding to leverage the completion of ReVAL and the momentum of the U.S. Data Federation work to support a long-term vision and strategic plan for a user-centered, maximally-effective resources.data.gov
+-   Pitched for Phase 4 funding to leverage the completion of ReVal and the momentum of the U.S. Data Federation work to support a long-term vision and strategic plan for a user-centered, maximally-effective resources.data.gov
 
 **Phase 4** (October 2019-ongoing)
 
@@ -48,7 +48,7 @@ Team: Phil Ashlock, Mike Gintz, Julia Lindpaintner, Amy Mok, Princess Ojiaku, Ja
 
 ## Recommendations
 
-The recommendation in the pitch for Phase 4 funding was to take advantage of a unique opportunity: government-wide efforts to support open data and federated data efforts are converging at GSA and within data.gov in particular. Rather than limiting Phase 4 to the completion of ReVAL, we recommended also using Phase 4 to unite the efforts behind the U.S. Data Federation and resources.data.gov.  
+The recommendation in the pitch for Phase 4 funding was to take advantage of a unique opportunity: government-wide efforts to support open data and federated data efforts are converging at GSA and within data.gov in particular. Rather than limiting Phase 4 to the completion of ReVal, we recommended also using Phase 4 to unite the efforts behind the U.S. Data Federation and resources.data.gov.  
 
 ## Next steps
 
@@ -88,9 +88,9 @@ Starting in Phase 3, the team began publishing updates on its activities and pro
 There are several repositories that contain code that is a part of this project.
 
 * Github repo for the US Data Federation website: https://github.com/GSA/us-data-federation
-* Github repo for ReVAL, the US Data Federation's first reusable tool for data validation and aggregation: https://github.com/18F/ReVAL
-* Github repo for the FNS Data Validation Service, which uses ReVAL to check submitted FNS-742 data against a set of centralized validation rules via API: https://github.com/18F/usda-fns-ingest
-* Github repo for the Workzone Data Exchange (WZDx) Validator, which uses ReVAL to perform JSON Schema validation against the WZDx v1.1 specification: https://github.com/18F/usdot-jpo-ode-workzone-data-exchange
+* Github repo for ReVal, the US Data Federation's first reusable tool for data validation and aggregation: https://github.com/18F/ReVAL
+* Github repo for the FNS Data Validation Service, which uses ReVal to check submitted FNS-742 data against a set of centralized validation rules via API: https://github.com/18F/usda-fns-ingest
+* Github repo for the Workzone Data Exchange (WZDx) Validator, which uses ReVal to perform JSON Schema validation against the WZDx v1.1 specification: https://github.com/18F/usdot-jpo-ode-workzone-data-exchange
 
 *Other repos referenced:*
 
