@@ -1,6 +1,6 @@
 # Data Federation Project
 
-The U.S. Data Federation is a project focused on making it easier to collect, combine, and exchange _federated data_ - data from disparate sources. The project is an initiative of the GSA Technology Transformation Services (TTS) [10x](10x.gsa.gov) program, which funds technology-focused ideas from federal employees with an aim to improve the experience all people have with our government. 
+The U.S. Data Federation project promotes government-wide capacity-building to support distributed data management challenges, data interoperability, and broader data standards activities. The project is an initiative of the GSA Technology Transformation Services (TTS) [10x](10x.gsa.gov) program, which funds technology-focused ideas from federal employees with an aim to improve the experience all people have with our government. 
 
 ## Overview
 
@@ -10,27 +10,33 @@ We define a federated data project as an effort in which a common type of data i
 
 Federated data efforts are increasingly seen as an engine for transparency, economic growth, and accountability, yet collecting this kind of data remains a challenge. While this type of data management effort is growing increasingly common in our distributed style of government, each new effort is still improvising solutions in terms of processes, tooling, and compliance infrastructure. **Many of these federated data efforts face common requirements and common challenges, but lack common resources.** 
 
-The United States Data Federation project was conceived in 2016 to address this gap. The project aims to identify common challenges and pain points in federated data efforts and address these needs by curating best practices and resources and developing reusable tooling. The best practices and resources are intended to include guides and repeatable processes around data governance, organizational coordination, and standards development in federated environments. The reusable tools are intended to include capabilities around data validation, automated aggregation, and the development and documentation of data specifications.   
+The U.S. Data Federation project was conceived in 2016 to address this gap. The project set out to identify common challenges and pain points in federated data efforts and address these needs by curating best practices and resources and developing reusable tooling. The best practices and resources were intended to include guides and repeatable processes around data governance, organizational coordination, and standards development in federated environments. The reusable tools were intended to include capabilities around data validation, automated aggregation, and the development and documentation of data specifications.   
 
-## Milestones
+Over the course of its first three phases of 10x funding, it began to deliver on this ambition by building and launching ReVal, a Reusable Validation Library, which has been used by the USDA Food & Nutrition Services and other agencies to streamline data collection and validation processes. 
+
+During Phase 4, the team took advantage of a unique opportunity to unite government-wide efforts to support open data and federated data efforts. The team has supported Data.gov, OMB, and OGIS stakeholders in developing a vision and delivering increased functionality for resources.data.gov, a legislatively-mandated online repository of policies, tools, case studies and other resources to support data governance, management, and use throughout the federal government. 
+
+After conducting research with the stakeholders and audience for resources.data.gov, the team saw an opportunity for a long-term practical manifestation of the Data Federation as the content strategy team underpinning resources.data.gov. The future funding and organization of this work is currently under negotiation.
+
+## Project milestones
 
 **Phase 1** (Fall 2017)
 
-Team: Phil Ashlock, Anthony Garvan
+*Team: Phil Ashlock, Anthony Garvan*
 -   Interviewed a variety of distributed data management projects and synthesized findings in a [Data Federation Framework](<https://github.com/18F/data-federation-report/blob/master/DataFederationFramework.md>). 
 -   Created a placeholder for future web content at federation.data.gov
 -   Pitched for Phase 2 funding based on finding that reusable tooling and processes would benefit future federated data efforts
 
 **Phase 2** (Spring 2018)
 
-Team: Phil Ashlock, Catherine Devlin, Anthony Garvan, Chris Goranson, Joe Krzystan
+*Team: Phil Ashlock, Catherine Devlin, Anthony Garvan, Chris Goranson, Joe Krzystan*
 -   Prototyped a reusable data validation tool that allows users to submit data via a web interface or API to be validated against a set of customizable rules in real time
 -   Partnered with the USDA Food & Nutrition Service (FNS) to adapt this tool for the FNS-742, a form that collects verification data for the National School Lunch Program 
 -   Pitched for Phase 3 funding to further develop the tool, implement it with FNS, and conduct outreach to identify other partners and other opportunities for reusable tools  (Phase 2 Final Presentation)
 
 **Phase 3** (December 2018-June 2019)
 
-Team: Phil Ashlock, Mike Gintz, Mark Headd, Ethan Heppner, Julia Lindpaintner, Amy Mok
+*Team: Phil Ashlock, Mike Gintz, Mark Headd, Ethan Heppner, Julia Lindpaintner, Amy Mok*
 -   Developed Phase 2 prototype into Reusable Validation Library ([ReVal](https://github.com/18F/ReVAL)) with a focus on API-based usage
 -   Worked with FNS to develop ReVal's first custom manifestation for FNS-742 as the [FNS Data Validation Service](https://github.com/18F/usda-fns-ingest)
 -   Validated demand for ReVal and identified future partners 
@@ -39,20 +45,14 @@ Team: Phil Ashlock, Mike Gintz, Mark Headd, Ethan Heppner, Julia Lindpaintner, A
 -   Protect against redundancy by aligning the efforts of the U.S. Data Federation with other efforts across government, such as the work of the Federal Data Strategy and the mandates of the Evidence Act and Open Government Data Act 
 -   Pitched for Phase 4 funding to leverage the completion of ReVal and the momentum of the U.S. Data Federation work to support a long-term vision and strategic plan for a user-centered, maximally-effective resources.data.gov
 
-**Phase 4** (October 2019-ongoing)
+**Phase 4** (October 2019-April 2020)
 
-Team: Phil Ashlock, Mike Gintz, Julia Lindpaintner, Amy Mok, Princess Ojiaku, James Tranovich
+*Team: Phil Ashlock, Mike Gintz, Julia Lindpaintner, Amy Mok, Princess Ojiaku, James Tranovich*
 -   Collaborated with resources.data.gov stakeholders (GSA, OMB, OGIS) to identify likely audience and begin to define a long-term vision of success for the resource repository
 -   Conducted interviews with over 30 people across 14 agencies, including 5 Chief Data Officers, data scientists, organizers of internal open data working groups, Federal Data Strategy detailees, and many others involved in their agency’s data governance or data management efforts 
 -   Outlined a long-term vision for the U.S. Data Federation as the content strategy team underpinning resources.data.gov and plans to prototype this approach during Phase 4
-
-## Recommendations
-
-The recommendation in the pitch for Phase 4 funding was to take advantage of a unique opportunity: government-wide efforts to support open data and federated data efforts are converging at GSA and within data.gov in particular. Rather than limiting Phase 4 to the completion of ReVal, we recommended also using Phase 4 to unite the efforts behind the U.S. Data Federation and resources.data.gov.  
-
-## Next steps
-
-After conducting research with the stakeholders and audience for resources.data.gov, we saw an opportunity for a long-term practical manifestation of the U.S. Data Federation as the content strategy team underpinning resources.data.gov. We look forward to using the remainder of Phase 4 funding to prototype the team, content sourcing, and content structure for the resource repository.
+-   Reviewed all content and implemented new information architecture, navigation, and functionality in response to user research in order to make resources in the repository maximally discoverable
+-   Prototyped the process of abstracting agency-specific resources to make them more broadly useful to other agencies
 
 ## References and deliverables
 
